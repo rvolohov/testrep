@@ -13,3 +13,6 @@ class Test_SanityTestSuite:
     def test_3(self):
         word = "new test"
         assert 'new' in word
+    def test_4(self):
+        word = "new test 2"
+        assert 'new' in word
