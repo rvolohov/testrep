@@ -2,6 +2,7 @@ __author__ = 'roman'
 
 from distutils.core import setup, Command
 
+
 class Test_SanityTestSuite:
     def test_1(self):
         x = "sanity"
@@ -19,3 +20,6 @@ class Test_SanityTestSuite:
     def test_5(self):
         word = "cloudlock"
         assert 'cloud' in word
+    def test_6(self):
+        word = "cloudlock test"
+        assert ' ' in word
