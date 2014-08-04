@@ -16,3 +16,6 @@ class Test_SanityTestSuite:
     def test_4(self):
         word = "new test 2"
         assert 'new' in word
+    def test_5(self):
+        word = "cloudlock"
+        assert 'cloud' in word
