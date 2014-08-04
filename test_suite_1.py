@@ -1,7 +1,7 @@
+from __future__ import print_function
 __author__ = 'roman'
 
-from distutils.core import setup, Command
-
+import pytest
 
 class Test_SanityTestSuite:
     def test_1(self):
